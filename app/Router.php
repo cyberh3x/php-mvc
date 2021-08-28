@@ -19,8 +19,7 @@ class Router
         $matcher = new UrlMatcher($routes, $context);
         try {
             $requestUri = $_SERVER['REQUEST_URI'];
-            $rootUrl = explode('/', $requestUri);
-            $matcher = $matcher->match(str_replace("/$rootUrl[1]", '', $_SERVER['REQUEST_URI']));
+            $matcher = $matcher->match($requestUri);
 
             // Cast params to int if numeric
             array_walk($matcher, function (&$param) {
