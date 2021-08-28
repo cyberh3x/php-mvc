@@ -1,0 +1,30 @@
+{
+  "name": "simple-mvc",
+  "version": "1.0.0",
+  "description": "Simple PHP MVC",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "laravel-mix": "^6.0.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadN7798/simple-php-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajjadN7798/simple-php-mvc/issues"
+  },
+  "homepage": "https://github.com/sajjadN7798/simple-php-mvc#readme"
+}
