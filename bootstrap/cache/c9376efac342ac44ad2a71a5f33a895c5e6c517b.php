@@ -1,0 +1,1 @@
+<h1>Home <?php echo e($name); ?></h1><?php /**PATH E:\Xampp-8.0.9\htdocs\simple-mvc\views/Home.blade.php ENDPATH**/ ?>

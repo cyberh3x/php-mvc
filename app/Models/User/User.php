@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models\Users;
+
+use Illuminate\Database\Eloquent\Model;
+
+class User extends Model
+{
+    protected $table = 'tbl_users';
+    protected $fillable = [
+        'email', 'password'
+    ];
+}
