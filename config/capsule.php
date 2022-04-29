@@ -2,13 +2,19 @@
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule;
-
+$dbConfig = require_once APP_ROOT . "/config/db.php";
+$driver = $dbConfig['default'];
+$connection = $dbConfig['connections'][$driver];
+$host= $connection['host'];
+$database = $connection['database'];
+$username = $connection['username'];
+$password = $connection['password'];
 $capsule->addConnection([
-    'driver' => 'mysql',
-    'host' => 'localhost',
-    'database' => 'db_simple_mvc',
-    'username' => 'root',
-    'password' => '',
+    'driver' => $driver,
+    'host' => $host,
+    'database' => $database,
+    'username' => $username,
+    'password' => $password,
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix' => '',
