@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd90a9f7-fe9a-4d3d-8398-e4c99eb5b6a9" name="Afzoone-Host" url="http://ftp.afzoone.dev">
+        <fileTransfer accessType="FTPS" host="ftp.afzoone.dev" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

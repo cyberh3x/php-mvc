@@ -19,6 +19,10 @@ class Router
         $matcher = new UrlMatcher($routes, $context);
         try {
             $requestUri = $_SERVER['REQUEST_URI'];
+            $appName = APP_NAME;
+            if (strpos($requestUri, $appName)) {
+                $requestUri = str_replace("/$appName/", '', "$requestUri");
+            }
             $matcher = $matcher->match($requestUri);
 
             // Cast params to int if numeric
