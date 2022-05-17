@@ -35,12 +35,8 @@
     <h1 class="text-white">
         Welcome
     </h1>
-    <a href="https://github.com/sajjadN7798" target="_blank" class="text-white">
+    <a href="https://github.com/infiniteloop98" target="_blank" class="text-white">
         Github
-    </a>
-    |
-    <a href="https://instagram.com/this.is.sjd" target="_blank" class="text-white">
-        Instagram
     </a>
 </div>
 </body>
