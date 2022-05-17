@@ -4,7 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>خوش آمدید</title>
+    <title>Welcome</title>
     <style>
         body {
             font-size: 100%;
@@ -33,7 +33,7 @@
 <body>
 <div class="container">
     <h1 class="text-white">
-        خوش آمدید!
+        Welcome
     </h1>
     <a href="https://github.com/sajjadN7798" target="_blank" class="text-white">
         Github
